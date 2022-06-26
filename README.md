@@ -39,7 +39,7 @@ On Raspberry Pi 4 other built-in hardware probably interfers somehow with this s
 1. Compile executable with option to use GPIO21 instead of GPIO4 (PIN 40 on GPIO header):
 ```
 make GPIO21=1
-```
+```,,
 2. Change either ARM core frequency scaling governor settings to "performance" or to change ARM minimum and maximum core frequencies to one constant value (see: https://www.raspberrypi.org/forums/viewtopic.php?t=152692 ).
 ```
 echo "performance"| sudo tee /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
