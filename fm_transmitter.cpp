@@ -67,7 +67,7 @@ int main(int argc, char** argv)
                 dmaChannel = std::stoi(optarg);
                 break;
             case 'b':
-                bandwidth = std::stof(optarg);
+                bandwidth = std::stof(optarg);  
                 break;
             case 'v':
                 std::cout << EXECUTABLE << " version: " << VERSION << std::endl;
